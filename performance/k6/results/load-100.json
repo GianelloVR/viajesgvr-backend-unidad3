@@ -1,0 +1,173 @@
+{
+    "metrics": {
+        "http_req_sending": {
+            "med": 0,
+            "max": 2.0093,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.009864916381945693,
+            "min": 0
+        },
+        "http_req_duration": {
+            "avg": 48.610197266678554,
+            "min": 11.296,
+            "med": 26.0727,
+            "max": 639.3899,
+            "p(90)": 107.4891,
+            "p(95)": 173.4547,
+            "thresholds": {
+                "p(95)<2000": false
+            }
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 5561,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "vus_max": {
+            "value": 100,
+            "min": 100,
+            "max": 100
+        },
+        "http_req_tls_handshaking": {
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0
+        },
+        "data_received": {
+            "count": 11406054,
+            "rate": 367403.0975535708
+        },
+        "checks": {
+            "passes": 11121,
+            "fails": 0,
+            "value": 1
+        },
+        "iteration_duration": {
+            "avg": 1097.9396271582739,
+            "min": 1025.2298,
+            "med": 1053.9106,
+            "max": 1713.5506,
+            "p(90)": 1208.22942,
+            "p(95)": 1363.5505899999998
+        },
+        "http_req_blocked": {
+            "max": 17.1595,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.038028987592159676,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_connecting": {
+            "p(95)": 0,
+            "avg": 0.032830102499550436,
+            "min": 0,
+            "med": 0,
+            "max": 17.1595,
+            "p(90)": 0
+        },
+        "http_reqs": {
+            "count": 5561,
+            "rate": 179.12668355729397
+        },
+        "http_req_receiving": {
+            "min": 0,
+            "med": 0,
+            "max": 17.0853,
+            "p(90)": 0.5779,
+            "p(95)": 0.7707,
+            "avg": 0.1943018521848591
+        },
+        "vus": {
+            "value": 10,
+            "min": 10,
+            "max": 100
+        },
+        "http_req_waiting": {
+            "avg": 48.406030498111654,
+            "min": 8.4465,
+            "med": 25.9393,
+            "max": 639.3899,
+            "p(90)": 107.1651,
+            "p(95)": 172.9501
+        },
+        "data_sent": {
+            "count": 8429230,
+            "rate": 271515.91707276553
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 107.4891,
+            "p(95)": 173.4547,
+            "avg": 48.610197266678554,
+            "min": 11.296,
+            "med": 26.0727,
+            "max": 639.3899
+        },
+        "iterations": {
+            "count": 2780,
+            "rate": 89.5472361606325
+        }
+    },
+    "setup_data": {
+        "token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0TTNkYmNDNVQ4cEh6aXZac1VoTWxDb3NHX2xjY3otVnpyRTk2VTBWTmFVIn0.eyJleHAiOjE3ODI2OTM2MzEsImlhdCI6MTc4MjY5MzMzMSwianRpIjoib25ydHJvOmQyODI2YWJmLTEzY2MtZDg2Yy1kZmZhLWRlOGJlMTExM2FkMiIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvdmlhamVzZ3ZyIiwic3ViIjoiZGE1YjQ4NTItNWY0MS00NWZkLTgxZjAtNWMxYTZiMTMzNTQ2IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidmlhamVzZ3ZyLWZyb250ZW5kIiwic2lkIjoiR1ZmZVNiRnlWRktQNFdsMlI2UjBMTnFGIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vMTguMjE2LjI0MC4xOTI6ODA3MCIsImh0dHA6Ly9sb2NhbGhvc3Q6ODA3MCIsImh0dHBzOi8vMTguMjE2LjI0MC4xOTI6ODA3MCIsImh0dHA6Ly9sb2NhbGhvc3Q6NTE3MyJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiQURNSU4iXX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYXRpb25hbGl0eSI6IkNoaWxlbmEiLCJwaG9uZSI6Ijk5OTk5OTk5OSIsImRvY3VtZW50TnVtYmVyIjoiMTExMTExMTEtMSIsIm5hbWUiOiJBZG1pbiBWaWFqZXNHVlIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJBZG1pbiIsImZhbWlseV9uYW1lIjoiVmlhamVzR1ZSIiwiZW1haWwiOiJhZG1pbkB2aWFqZXNndnIuY2wifQ.SmOfO-It8MAWydNJKmAfxTsTuUdMRqM_GvRbYS2sSrG-1LvGiNTRaHwldj95A78186WRyZd9uolo6ultRE4DNOALqM3d38ovVZQNiNJDPSJLihgTcI45pQ_iC_5xtTF_pxaiIgaX6QHM8JIdgQsOrYuuMCDkrmW93n-PZ3foCoQsgCqMCaQt7H1u0AMiTkUxt0ig_IWjBK-rh-RMrmtLmwdbSaVK0DD99Seb4E9w_kluAWDly1FV14V4_5FRe-751VG0aG_U2Qpb_Y20KjFLMsqieOw-AgLcUo00SwwRGXUF0swJEcW2NhBRuh_YJy2H3lDZF7Cij0qY5TqebFR1Qw"
+    },
+    "root_group": {
+        "checks": {
+            "ventas responde 200": {
+                "path": "::ventas responde 200",
+                "id": "285a619a568573217c13ec89f757615d",
+                "passes": 2780,
+                "fails": 0,
+                "name": "ventas responde 200"
+            },
+            "ventas tiene cuerpo": {
+                "name": "ventas tiene cuerpo",
+                "path": "::ventas tiene cuerpo",
+                "id": "cf25b9d957e40b8039552e911a429744",
+                "passes": 2780,
+                "fails": 0
+            },
+            "ranking responde 200": {
+                "path": "::ranking responde 200",
+                "id": "d69edd92b2561d082a370fc3fa041dbb",
+                "passes": 2780,
+                "fails": 0,
+                "name": "ranking responde 200"
+            },
+            "ranking tiene cuerpo": {
+                "fails": 0,
+                "name": "ranking tiene cuerpo",
+                "path": "::ranking tiene cuerpo",
+                "id": "d05a4949efa93ee2ce45e5cdb24e5b43",
+                "passes": 2780
+            }
+        },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "setup": {
+                "groups": {},
+                "checks": {
+                        "token obtenido correctamente": {
+                            "id": "76ee714d2aa5049d6b914b79467dd0d9",
+                            "passes": 1,
+                            "fails": 0,
+                            "name": "token obtenido correctamente",
+                            "path": "::setup::token obtenido correctamente"
+                        }
+                    },
+                "name": "setup",
+                "path": "::setup",
+                "id": "5c0f8025f7e0b6654089e5b00e950f1a"
+            }
+        }
+    }
+}
